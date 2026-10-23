@@ -1,0 +1,17 @@
+# Goodreads Scraper
+
+> An Apify actor that looks up books by title or author and returns the average rating, number of ratings, page count, cover image and description, one row per book, without a login.
+
+## Docs
+
+- [Apify Store page](https://apify.com/goat255/goodreads-scraper): run it, prices, input form
+- [AGENTS.md](AGENTS.md): input and output fields, MCP and HTTP setup for AI agents
+- [README.md](README.md): overview, use cases and a demo video
+
+## Quick call
+
+- POST https://api.apify.com/v2/acts/goat255~goodreads-scraper/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN with body {"titles": ["an example novel"], "maxMatchesPerTitle": 1}
+
+## More
+
+- [All our actors](https://apify.com/goat255)
